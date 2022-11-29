@@ -22,14 +22,13 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(474, 66)
+        Me.Button1.Location = New System.Drawing.Point(550, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(187, 82)
         Me.Button1.TabIndex = 0
@@ -38,7 +37,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(474, 154)
+        Me.Button2.Location = New System.Drawing.Point(550, 112)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(187, 76)
         Me.Button2.TabIndex = 1
@@ -57,8 +56,6 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
 End Class

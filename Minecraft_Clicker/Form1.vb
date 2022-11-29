@@ -10,4 +10,10 @@ Public Class Form1
         Me.Visible = False
         Buildings.ShowDialog()
     End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        System.Windows.Forms.Cursor.Current =
+myResources..Cursors.
+    End Sub
+
 End Class
