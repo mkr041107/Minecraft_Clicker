@@ -137,5 +137,23 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minecraft-sword-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minecraft-sword-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-depot-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-depot-64 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-depot-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SsundeePlayer.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
