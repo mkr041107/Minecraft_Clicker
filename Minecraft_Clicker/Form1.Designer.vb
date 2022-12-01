@@ -147,11 +147,13 @@ Partial Class Form1
         '
         'Timer1
         '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 10
         '
         'Player
         '
         Me.Player.Image = Global.Minecraft_Clicker.My.Resources.Resources.SsundeePlayer
-        Me.Player.Location = New System.Drawing.Point(53, 151)
+        Me.Player.Location = New System.Drawing.Point(42, 134)
         Me.Player.Name = "Player"
         Me.Player.Size = New System.Drawing.Size(41, 79)
         Me.Player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -258,6 +260,7 @@ Partial Class Form1
         Me.Controls.Add(Me.RedDepot)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.KeyPreview = True
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.Player, System.ComponentModel.ISupportInitialize).EndInit()

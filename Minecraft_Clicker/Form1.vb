@@ -26,15 +26,15 @@ Public Class Form1
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         MoneyGenActive()
 
-        If (w = True) Then
-            pbHero.Top -= speed
-        ElseIf (s = True) Then
-
-            pbHero.Top += speed
-        ElseIf (a = True) Then
-            pbHero.Left -= speed
+        If (u = True) Then
+            Player.Top -= s
         ElseIf (d = True) Then
-            pbHero.Left += speed
+
+            Player.Top += s
+        ElseIf (l = True) Then
+            Player.Left -= s
+        ElseIf (r = True) Then
+            Player.Left += s
         End If
     End Sub
     Private Sub MoneyGenActive()
