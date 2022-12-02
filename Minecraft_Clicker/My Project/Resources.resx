@@ -133,4 +133,28 @@
   <data name="SsundeePlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SsundeePlayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Cobblestone_1478720647__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cobblestone-1478720647 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emerald_2441025227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Emerald-2441025227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_diamond_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-diamond-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latest_3336829218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latest-3336829218.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_1898358042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th-1898358042.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_2354788584" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th-2354788584.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_3617487180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th-3617487180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_4270698680" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th-4270698680.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

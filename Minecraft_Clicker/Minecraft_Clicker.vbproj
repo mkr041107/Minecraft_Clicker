@@ -155,5 +155,29 @@
   <ItemGroup>
     <None Include="Resources\SsundeePlayer.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cobblestone-1478720647 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emerald-2441025227.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-diamond-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latest-3336829218.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th-1898358042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th-2354788584.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th-3617487180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th-4270698680.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
