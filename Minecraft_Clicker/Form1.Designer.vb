@@ -48,6 +48,7 @@ Partial Class Form1
         Me.EmeraldDepot = New System.Windows.Forms.PictureBox()
         Me.CurrencyDiamond = New System.Windows.Forms.Label()
         Me.CurrencyEmerald = New System.Windows.Forms.Label()
+        Me.TopStopper = New System.Windows.Forms.PictureBox()
         CType(Me.Player, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GoldDepot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.IronDepot, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,6 +60,7 @@ Partial Class Form1
         CType(Me.RedDepot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DiamondDepot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmeraldDepot, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TopStopper, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -285,11 +287,20 @@ Partial Class Form1
         Me.CurrencyEmerald.TabIndex = 22
         Me.CurrencyEmerald.Text = "Emerald: 0"
         '
+        'TopStopper
+        '
+        Me.TopStopper.Location = New System.Drawing.Point(1289, 1)
+        Me.TopStopper.Name = "TopStopper"
+        Me.TopStopper.Size = New System.Drawing.Size(123, 10)
+        Me.TopStopper.TabIndex = 23
+        Me.TopStopper.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1414, 530)
+        Me.Controls.Add(Me.TopStopper)
         Me.Controls.Add(Me.CurrencyEmerald)
         Me.Controls.Add(Me.CurrencyDiamond)
         Me.Controls.Add(Me.EmeraldDepot)
@@ -327,6 +338,7 @@ Partial Class Form1
         CType(Me.RedDepot, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DiamondDepot, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmeraldDepot, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TopStopper, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -355,4 +367,5 @@ Partial Class Form1
     Friend WithEvents EmeraldDepot As PictureBox
     Friend WithEvents CurrencyDiamond As Label
     Friend WithEvents CurrencyEmerald As Label
+    Friend WithEvents TopStopper As PictureBox
 End Class

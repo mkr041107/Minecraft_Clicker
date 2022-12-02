@@ -1,5 +1,6 @@
 ﻿
 Imports System.Security.Policy
+Imports Microsoft.VisualBasic.Devices
 
 Public Class Form1
     Dim RedCurrency As Integer
@@ -17,6 +18,9 @@ Public Class Form1
     Dim u As Boolean = False
     Dim d As Boolean = False
     Dim s As Integer = 5
+    Dim px, py As Integer
+
+
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Visible = False
@@ -34,6 +38,8 @@ Public Class Form1
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         MoneyGenActive()
+        px = Player.Location.X
+        py = Player.Location.Y
         If (u = True) Then
             Player.Top -= s
         ElseIf (d = True) Then
@@ -43,6 +49,18 @@ Public Class Form1
             Player.Left -= s
         ElseIf (r = True) Then
             Player.Left += s
+        End If
+        If (Player.Location.Y > Me.ClientSize.Height - Player.Height) Then
+            Player.Location = New Point(px, py)
+        End If
+        If (Player.Location.X > Me.ClientSize.Width - Player.Width) Then
+            Player.Location = New Point(px, py)
+        End If
+        If (Player.Location.X < 0) Then
+            Player.Location = New Point(px, py)
+        End If
+        If Player.Bounds.IntersectsWith(TopStopper.Bounds) Then
+            Player.Location = New Point(px, py)
         End If
     End Sub
     Private Sub MoneyGenActive()
@@ -64,32 +82,37 @@ Public Class Form1
         If WoodDepot.Bounds.IntersectsWith(Player.Bounds) Then
             WoodCurrency += 1
             CurrencyWood.Text = "Wood: " & WoodCurrency
-            Player.Location = New Point(400, 450)
+            Player.Location = New Point(450, 450)
         End If
         If CobbleDepot.Bounds.IntersectsWith(Player.Bounds) Then
             CobbleCurrency += 1
             CurrencyCobble.Text = "Cobble: " & CobbleCurrency
-            Player.Location = New Point(500, 450)
+            Player.Location = New Point(550, 450)
         End If
         If CopperDepot.Bounds.IntersectsWith(Player.Bounds) Then
             CopperCurrency += 1
             CurrencyCopper.Text = "Copper: " & CopperCurrency
-            Player.Location = New Point(150, 450)
+            Player.Location = New Point(700, 450)
         End If
         If IronDepot.Bounds.IntersectsWith(Player.Bounds) Then
             IronCurrency += 1
             CurrencyIron.Text = "Iron: " & IronCurrency
-            Player.Location = New Point(150, 450)
+            Player.Location = New Point(850, 450)
         End If
         If GoldDepot.Bounds.IntersectsWith(Player.Bounds) Then
             GoldCurrency += 1
             CurrencyGold.Text = "Gold: " & GoldCurrency
-            Player.Location = New Point(150, 450)
+            Player.Location = New Point(1000, 450)
         End If
-        If TealDepot.Bounds.IntersectsWith(Player.Bounds) Then
-            TealCurrency += 1
-            CurrencyTeal.Text = "Teal: " & TealCurrency
-            Player.Location = New Point(150, 450)
+        If DiamondDepot.Bounds.IntersectsWith(Player.Bounds) Then
+            DiamondCurrency += 1
+            CurrencyDiamond.Text = "Diamond: " & DiamondCurrency
+            Player.Location = New Point(1100, 450)
+        End If
+        If EmeraldDepot.Bounds.IntersectsWith(Player.Bounds) Then
+            EmeraldCurrency += 1
+            CurrencyEmerald.Text = "Emerald: " & EmeraldCurrency
+            Player.Location = New Point(1250, 450)
         End If
     End Sub
 
@@ -110,6 +133,10 @@ Public Class Form1
         If e.KeyCode = Keys.S Then
             d = True
         End If
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 
     Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles MyBase.KeyUp
