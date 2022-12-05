@@ -46,8 +46,8 @@ Partial Class Buildings
         Me.BuildingBlue1Price = New System.Windows.Forms.Label()
         Me.BuildingBlue1Quantity = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TealBuilding1Price = New System.Windows.Forms.Label()
+        Me.TealBuilding1Quantity = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -58,11 +58,11 @@ Partial Class Buildings
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
+        Me.BlueBuilding2Price = New System.Windows.Forms.Label()
+        Me.BlueBuilding2Quantity = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TealBuilding2Price = New System.Windows.Forms.Label()
+        Me.TealBuilding2Quantity = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
@@ -73,11 +73,11 @@ Partial Class Buildings
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
+        Me.RedBuilding1Price = New System.Windows.Forms.Label()
+        Me.RedBuilding1Quantity = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
+        Me.WoodBuilding1Price = New System.Windows.Forms.Label()
+        Me.WoodBuilding1Quantity = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
@@ -88,11 +88,11 @@ Partial Class Buildings
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
+        Me.RedBuilding2Price = New System.Windows.Forms.Label()
+        Me.RedBuilding2Quantity = New System.Windows.Forms.Label()
         Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
+        Me.WoodBuilding2Price = New System.Windows.Forms.Label()
+        Me.WoodBuilding2Quantity = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
@@ -337,7 +337,7 @@ Partial Class Buildings
         'BuildingBlue1Price
         '
         Me.BuildingBlue1Price.AutoSize = True
-        Me.BuildingBlue1Price.Location = New System.Drawing.Point(173, 12)
+        Me.BuildingBlue1Price.Location = New System.Drawing.Point(173, 32)
         Me.BuildingBlue1Price.Name = "BuildingBlue1Price"
         Me.BuildingBlue1Price.Size = New System.Drawing.Size(39, 13)
         Me.BuildingBlue1Price.TabIndex = 25
@@ -346,7 +346,7 @@ Partial Class Buildings
         'BuildingBlue1Quantity
         '
         Me.BuildingBlue1Quantity.AutoSize = True
-        Me.BuildingBlue1Quantity.Location = New System.Drawing.Point(173, 34)
+        Me.BuildingBlue1Quantity.Location = New System.Drawing.Point(173, 54)
         Me.BuildingBlue1Quantity.Name = "BuildingBlue1Quantity"
         Me.BuildingBlue1Quantity.Size = New System.Drawing.Size(39, 13)
         Me.BuildingBlue1Quantity.TabIndex = 26
@@ -355,38 +355,38 @@ Partial Class Buildings
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(173, 54)
+        Me.Label3.Location = New System.Drawing.Point(173, 12)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.Size = New System.Drawing.Size(80, 13)
         Me.Label3.TabIndex = 27
-        Me.Label3.Text = "Label3"
+        Me.Label3.Text = "Blue Mining Inc"
         '
-        'Label4
+        'TealBuilding1Price
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(173, 127)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
-        Me.Label4.TabIndex = 30
-        Me.Label4.Text = "Label4"
+        Me.TealBuilding1Price.AutoSize = True
+        Me.TealBuilding1Price.Location = New System.Drawing.Point(173, 127)
+        Me.TealBuilding1Price.Name = "TealBuilding1Price"
+        Me.TealBuilding1Price.Size = New System.Drawing.Size(39, 13)
+        Me.TealBuilding1Price.TabIndex = 30
+        Me.TealBuilding1Price.Text = "Label4"
         '
-        'Label5
+        'TealBuilding1Quantity
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(173, 107)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 13)
-        Me.Label5.TabIndex = 29
-        Me.Label5.Text = "Label5"
+        Me.TealBuilding1Quantity.AutoSize = True
+        Me.TealBuilding1Quantity.Location = New System.Drawing.Point(173, 107)
+        Me.TealBuilding1Quantity.Name = "TealBuilding1Quantity"
+        Me.TealBuilding1Quantity.Size = New System.Drawing.Size(39, 13)
+        Me.TealBuilding1Quantity.TabIndex = 29
+        Me.TealBuilding1Quantity.Text = "Label5"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(173, 85)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 13)
+        Me.Label6.Size = New System.Drawing.Size(80, 13)
         Me.Label6.TabIndex = 28
-        Me.Label6.Text = "Label6"
+        Me.Label6.Text = "Teal Mining Inc"
         '
         'Label7
         '
@@ -411,9 +411,9 @@ Partial Class Buildings
         Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(173, 158)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(39, 13)
+        Me.Label9.Size = New System.Drawing.Size(118, 13)
         Me.Label9.TabIndex = 31
-        Me.Label9.Text = "Label9"
+        Me.Label9.Text = "Cobblestone Mining Inc"
         '
         'Label10
         '
@@ -438,9 +438,9 @@ Partial Class Buildings
         Me.Label12.AutoSize = True
         Me.Label12.Location = New System.Drawing.Point(173, 228)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(45, 13)
+        Me.Label12.Size = New System.Drawing.Size(77, 13)
         Me.Label12.TabIndex = 34
-        Me.Label12.Text = "Label12"
+        Me.Label12.Text = "Iron Mining Inc"
         '
         'Label13
         '
@@ -465,63 +465,63 @@ Partial Class Buildings
         Me.Label15.AutoSize = True
         Me.Label15.Location = New System.Drawing.Point(173, 304)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(45, 13)
+        Me.Label15.Size = New System.Drawing.Size(101, 13)
         Me.Label15.TabIndex = 37
-        Me.Label15.Text = "Label15"
+        Me.Label15.Text = "Diamond Mining Inc"
         '
-        'Label16
+        'BlueBuilding2Price
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(465, 54)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(45, 13)
-        Me.Label16.TabIndex = 42
-        Me.Label16.Text = "Label16"
+        Me.BlueBuilding2Price.AutoSize = True
+        Me.BlueBuilding2Price.Location = New System.Drawing.Point(465, 54)
+        Me.BlueBuilding2Price.Name = "BlueBuilding2Price"
+        Me.BlueBuilding2Price.Size = New System.Drawing.Size(45, 13)
+        Me.BlueBuilding2Price.TabIndex = 42
+        Me.BlueBuilding2Price.Text = "Label16"
         '
-        'Label17
+        'BlueBuilding2Quantity
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(465, 34)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(45, 13)
-        Me.Label17.TabIndex = 41
-        Me.Label17.Text = "Label17"
+        Me.BlueBuilding2Quantity.AutoSize = True
+        Me.BlueBuilding2Quantity.Location = New System.Drawing.Point(465, 34)
+        Me.BlueBuilding2Quantity.Name = "BlueBuilding2Quantity"
+        Me.BlueBuilding2Quantity.Size = New System.Drawing.Size(45, 13)
+        Me.BlueBuilding2Quantity.TabIndex = 41
+        Me.BlueBuilding2Quantity.Text = "Label17"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.Location = New System.Drawing.Point(465, 12)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(45, 13)
+        Me.Label18.Size = New System.Drawing.Size(94, 13)
         Me.Label18.TabIndex = 40
-        Me.Label18.Text = "Label18"
+        Me.Label18.Text = "Blue Transport Inc"
         '
-        'Label19
+        'TealBuilding2Price
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(465, 127)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(45, 13)
-        Me.Label19.TabIndex = 45
-        Me.Label19.Text = "Label19"
+        Me.TealBuilding2Price.AutoSize = True
+        Me.TealBuilding2Price.Location = New System.Drawing.Point(465, 127)
+        Me.TealBuilding2Price.Name = "TealBuilding2Price"
+        Me.TealBuilding2Price.Size = New System.Drawing.Size(45, 13)
+        Me.TealBuilding2Price.TabIndex = 45
+        Me.TealBuilding2Price.Text = "Label19"
         '
-        'Label20
+        'TealBuilding2Quantity
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(465, 107)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(45, 13)
-        Me.Label20.TabIndex = 44
-        Me.Label20.Text = "Label20"
+        Me.TealBuilding2Quantity.AutoSize = True
+        Me.TealBuilding2Quantity.Location = New System.Drawing.Point(465, 107)
+        Me.TealBuilding2Quantity.Name = "TealBuilding2Quantity"
+        Me.TealBuilding2Quantity.Size = New System.Drawing.Size(45, 13)
+        Me.TealBuilding2Quantity.TabIndex = 44
+        Me.TealBuilding2Quantity.Text = "Label20"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
         Me.Label21.Location = New System.Drawing.Point(465, 85)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(45, 13)
+        Me.Label21.Size = New System.Drawing.Size(94, 13)
         Me.Label21.TabIndex = 43
-        Me.Label21.Text = "Label21"
+        Me.Label21.Text = "Teal Transport Inc"
         '
         'Label22
         '
@@ -544,11 +544,11 @@ Partial Class Buildings
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(465, 158)
+        Me.Label24.Location = New System.Drawing.Point(442, 158)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(45, 13)
+        Me.Label24.Size = New System.Drawing.Size(132, 13)
         Me.Label24.TabIndex = 46
-        Me.Label24.Text = "Label24"
+        Me.Label24.Text = "Cobblestone Transport Inc"
         '
         'Label25
         '
@@ -573,9 +573,9 @@ Partial Class Buildings
         Me.Label27.AutoSize = True
         Me.Label27.Location = New System.Drawing.Point(465, 228)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(45, 13)
+        Me.Label27.Size = New System.Drawing.Size(91, 13)
         Me.Label27.TabIndex = 49
-        Me.Label27.Text = "Label27"
+        Me.Label27.Text = "Iron Transport Inc"
         '
         'Label28
         '
@@ -600,63 +600,63 @@ Partial Class Buildings
         Me.Label30.AutoSize = True
         Me.Label30.Location = New System.Drawing.Point(465, 304)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(45, 13)
+        Me.Label30.Size = New System.Drawing.Size(118, 13)
         Me.Label30.TabIndex = 52
-        Me.Label30.Text = "Label30"
+        Me.Label30.Text = "Diamond  Transport Inc"
         '
-        'Label31
+        'RedBuilding1Price
         '
-        Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(754, 54)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(45, 13)
-        Me.Label31.TabIndex = 57
-        Me.Label31.Text = "Label31"
+        Me.RedBuilding1Price.AutoSize = True
+        Me.RedBuilding1Price.Location = New System.Drawing.Point(754, 54)
+        Me.RedBuilding1Price.Name = "RedBuilding1Price"
+        Me.RedBuilding1Price.Size = New System.Drawing.Size(45, 13)
+        Me.RedBuilding1Price.TabIndex = 57
+        Me.RedBuilding1Price.Text = "Label31"
         '
-        'Label32
+        'RedBuilding1Quantity
         '
-        Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(754, 34)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(45, 13)
-        Me.Label32.TabIndex = 56
-        Me.Label32.Text = "Label32"
+        Me.RedBuilding1Quantity.AutoSize = True
+        Me.RedBuilding1Quantity.Location = New System.Drawing.Point(754, 34)
+        Me.RedBuilding1Quantity.Name = "RedBuilding1Quantity"
+        Me.RedBuilding1Quantity.Size = New System.Drawing.Size(45, 13)
+        Me.RedBuilding1Quantity.TabIndex = 56
+        Me.RedBuilding1Quantity.Text = "Label32"
         '
         'Label33
         '
         Me.Label33.AutoSize = True
         Me.Label33.Location = New System.Drawing.Point(754, 12)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(45, 13)
+        Me.Label33.Size = New System.Drawing.Size(93, 13)
         Me.Label33.TabIndex = 55
-        Me.Label33.Text = "Label33"
+        Me.Label33.Text = "Red Transport Inc"
         '
-        'Label34
+        'WoodBuilding1Price
         '
-        Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(754, 127)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(45, 13)
-        Me.Label34.TabIndex = 60
-        Me.Label34.Text = "Label34"
+        Me.WoodBuilding1Price.AutoSize = True
+        Me.WoodBuilding1Price.Location = New System.Drawing.Point(754, 127)
+        Me.WoodBuilding1Price.Name = "WoodBuilding1Price"
+        Me.WoodBuilding1Price.Size = New System.Drawing.Size(45, 13)
+        Me.WoodBuilding1Price.TabIndex = 60
+        Me.WoodBuilding1Price.Text = "Label34"
         '
-        'Label35
+        'WoodBuilding1Quantity
         '
-        Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(754, 107)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(45, 13)
-        Me.Label35.TabIndex = 59
-        Me.Label35.Text = "Label35"
+        Me.WoodBuilding1Quantity.AutoSize = True
+        Me.WoodBuilding1Quantity.Location = New System.Drawing.Point(754, 107)
+        Me.WoodBuilding1Quantity.Name = "WoodBuilding1Quantity"
+        Me.WoodBuilding1Quantity.Size = New System.Drawing.Size(45, 13)
+        Me.WoodBuilding1Quantity.TabIndex = 59
+        Me.WoodBuilding1Quantity.Text = "Label35"
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(754, 85)
+        Me.Label36.Location = New System.Drawing.Point(736, 85)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(45, 13)
+        Me.Label36.Size = New System.Drawing.Size(129, 13)
         Me.Label36.TabIndex = 58
-        Me.Label36.Text = "Label36"
+        Me.Label36.Text = "Lumber Rail Transport Inc"
         '
         'Label37
         '
@@ -681,9 +681,9 @@ Partial Class Buildings
         Me.Label39.AutoSize = True
         Me.Label39.Location = New System.Drawing.Point(754, 158)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(45, 13)
+        Me.Label39.Size = New System.Drawing.Size(110, 13)
         Me.Label39.TabIndex = 61
-        Me.Label39.Text = "Label39"
+        Me.Label39.Text = "Copper  Transport Inc"
         '
         'Label40
         '
@@ -708,9 +708,9 @@ Partial Class Buildings
         Me.Label42.AutoSize = True
         Me.Label42.Location = New System.Drawing.Point(754, 228)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(45, 13)
+        Me.Label42.Size = New System.Drawing.Size(95, 13)
         Me.Label42.TabIndex = 64
-        Me.Label42.Text = "Label42"
+        Me.Label42.Text = "Gold Transport Inc"
         '
         'Label43
         '
@@ -735,63 +735,63 @@ Partial Class Buildings
         Me.Label45.AutoSize = True
         Me.Label45.Location = New System.Drawing.Point(754, 304)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(45, 13)
+        Me.Label45.Size = New System.Drawing.Size(111, 13)
         Me.Label45.TabIndex = 67
-        Me.Label45.Text = "Label45"
+        Me.Label45.Text = "Emerald Transport Inc"
         '
-        'Label46
+        'RedBuilding2Price
         '
-        Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(1024, 54)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(45, 13)
-        Me.Label46.TabIndex = 72
-        Me.Label46.Text = "Label46"
+        Me.RedBuilding2Price.AutoSize = True
+        Me.RedBuilding2Price.Location = New System.Drawing.Point(1024, 54)
+        Me.RedBuilding2Price.Name = "RedBuilding2Price"
+        Me.RedBuilding2Price.Size = New System.Drawing.Size(45, 13)
+        Me.RedBuilding2Price.TabIndex = 72
+        Me.RedBuilding2Price.Text = "Label46"
         '
-        'Label47
+        'RedBuilding2Quantity
         '
-        Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(1024, 34)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(45, 13)
-        Me.Label47.TabIndex = 71
-        Me.Label47.Text = "Label47"
+        Me.RedBuilding2Quantity.AutoSize = True
+        Me.RedBuilding2Quantity.Location = New System.Drawing.Point(1024, 34)
+        Me.RedBuilding2Quantity.Name = "RedBuilding2Quantity"
+        Me.RedBuilding2Quantity.Size = New System.Drawing.Size(45, 13)
+        Me.RedBuilding2Quantity.TabIndex = 71
+        Me.RedBuilding2Quantity.Text = "Label47"
         '
         'Label48
         '
         Me.Label48.AutoSize = True
         Me.Label48.Location = New System.Drawing.Point(1024, 12)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(45, 13)
+        Me.Label48.Size = New System.Drawing.Size(79, 13)
         Me.Label48.TabIndex = 70
-        Me.Label48.Text = "Label48"
+        Me.Label48.Text = "Red Mining Inc"
         '
-        'Label49
+        'WoodBuilding2Price
         '
-        Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(1024, 127)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(45, 13)
-        Me.Label49.TabIndex = 75
-        Me.Label49.Text = "Label49"
+        Me.WoodBuilding2Price.AutoSize = True
+        Me.WoodBuilding2Price.Location = New System.Drawing.Point(1024, 127)
+        Me.WoodBuilding2Price.Name = "WoodBuilding2Price"
+        Me.WoodBuilding2Price.Size = New System.Drawing.Size(45, 13)
+        Me.WoodBuilding2Price.TabIndex = 75
+        Me.WoodBuilding2Price.Text = "Label49"
         '
-        'Label50
+        'WoodBuilding2Quantity
         '
-        Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(1024, 107)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(45, 13)
-        Me.Label50.TabIndex = 74
-        Me.Label50.Text = "Label50"
+        Me.WoodBuilding2Quantity.AutoSize = True
+        Me.WoodBuilding2Quantity.Location = New System.Drawing.Point(1024, 107)
+        Me.WoodBuilding2Quantity.Name = "WoodBuilding2Quantity"
+        Me.WoodBuilding2Quantity.Size = New System.Drawing.Size(45, 13)
+        Me.WoodBuilding2Quantity.TabIndex = 74
+        Me.WoodBuilding2Quantity.Text = "Label50"
         '
         'Label51
         '
         Me.Label51.AutoSize = True
         Me.Label51.Location = New System.Drawing.Point(1024, 85)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(45, 13)
+        Me.Label51.Size = New System.Drawing.Size(81, 13)
         Me.Label51.TabIndex = 73
-        Me.Label51.Text = "Label51"
+        Me.Label51.Text = "Lumber Axe Inc"
         '
         'Label52
         '
@@ -816,9 +816,9 @@ Partial Class Buildings
         Me.Label54.AutoSize = True
         Me.Label54.Location = New System.Drawing.Point(1024, 158)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(45, 13)
+        Me.Label54.Size = New System.Drawing.Size(93, 13)
         Me.Label54.TabIndex = 76
-        Me.Label54.Text = "Label54"
+        Me.Label54.Text = "Copper Mining Inc"
         '
         'Label55
         '
@@ -843,9 +843,9 @@ Partial Class Buildings
         Me.Label57.AutoSize = True
         Me.Label57.Location = New System.Drawing.Point(1024, 228)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(45, 13)
+        Me.Label57.Size = New System.Drawing.Size(81, 13)
         Me.Label57.TabIndex = 79
-        Me.Label57.Text = "Label57"
+        Me.Label57.Text = "Gold Mining Inc"
         '
         'Label58
         '
@@ -870,9 +870,9 @@ Partial Class Buildings
         Me.Label60.AutoSize = True
         Me.Label60.Location = New System.Drawing.Point(1024, 304)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(45, 13)
+        Me.Label60.Size = New System.Drawing.Size(97, 13)
         Me.Label60.TabIndex = 82
-        Me.Label60.Text = "Label60"
+        Me.Label60.Text = "Emerald Mining Inc"
         '
         'Buildings
         '
@@ -888,11 +888,11 @@ Partial Class Buildings
         Me.Controls.Add(Me.Label52)
         Me.Controls.Add(Me.Label53)
         Me.Controls.Add(Me.Label54)
-        Me.Controls.Add(Me.Label49)
-        Me.Controls.Add(Me.Label50)
+        Me.Controls.Add(Me.WoodBuilding2Price)
+        Me.Controls.Add(Me.WoodBuilding2Quantity)
         Me.Controls.Add(Me.Label51)
-        Me.Controls.Add(Me.Label46)
-        Me.Controls.Add(Me.Label47)
+        Me.Controls.Add(Me.RedBuilding2Price)
+        Me.Controls.Add(Me.RedBuilding2Quantity)
         Me.Controls.Add(Me.Label48)
         Me.Controls.Add(Me.Label43)
         Me.Controls.Add(Me.Label44)
@@ -903,11 +903,11 @@ Partial Class Buildings
         Me.Controls.Add(Me.Label37)
         Me.Controls.Add(Me.Label38)
         Me.Controls.Add(Me.Label39)
-        Me.Controls.Add(Me.Label34)
-        Me.Controls.Add(Me.Label35)
+        Me.Controls.Add(Me.WoodBuilding1Price)
+        Me.Controls.Add(Me.WoodBuilding1Quantity)
         Me.Controls.Add(Me.Label36)
-        Me.Controls.Add(Me.Label31)
-        Me.Controls.Add(Me.Label32)
+        Me.Controls.Add(Me.RedBuilding1Price)
+        Me.Controls.Add(Me.RedBuilding1Quantity)
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label29)
@@ -918,11 +918,11 @@ Partial Class Buildings
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label24)
-        Me.Controls.Add(Me.Label19)
-        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.TealBuilding2Price)
+        Me.Controls.Add(Me.TealBuilding2Quantity)
         Me.Controls.Add(Me.Label21)
-        Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.BlueBuilding2Price)
+        Me.Controls.Add(Me.BlueBuilding2Quantity)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label14)
@@ -933,8 +933,8 @@ Partial Class Buildings
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.TealBuilding1Price)
+        Me.Controls.Add(Me.TealBuilding1Quantity)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.BuildingBlue1Quantity)
@@ -1011,8 +1011,8 @@ Partial Class Buildings
     Friend WithEvents BuildingBlue1Price As Label
     Friend WithEvents BuildingBlue1Quantity As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents TealBuilding1Price As Label
+    Friend WithEvents TealBuilding1Quantity As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
@@ -1023,11 +1023,11 @@ Partial Class Buildings
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
+    Friend WithEvents BlueBuilding2Price As Label
+    Friend WithEvents BlueBuilding2Quantity As Label
     Friend WithEvents Label18 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
+    Friend WithEvents TealBuilding2Price As Label
+    Friend WithEvents TealBuilding2Quantity As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
@@ -1038,11 +1038,11 @@ Partial Class Buildings
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label32 As Label
+    Friend WithEvents RedBuilding1Price As Label
+    Friend WithEvents RedBuilding1Quantity As Label
     Friend WithEvents Label33 As Label
-    Friend WithEvents Label34 As Label
-    Friend WithEvents Label35 As Label
+    Friend WithEvents WoodBuilding1Price As Label
+    Friend WithEvents WoodBuilding1Quantity As Label
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents Label38 As Label
@@ -1053,11 +1053,11 @@ Partial Class Buildings
     Friend WithEvents Label43 As Label
     Friend WithEvents Label44 As Label
     Friend WithEvents Label45 As Label
-    Friend WithEvents Label46 As Label
-    Friend WithEvents Label47 As Label
+    Friend WithEvents RedBuilding2Price As Label
+    Friend WithEvents RedBuilding2Quantity As Label
     Friend WithEvents Label48 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents Label50 As Label
+    Friend WithEvents WoodBuilding2Price As Label
+    Friend WithEvents WoodBuilding2Quantity As Label
     Friend WithEvents Label51 As Label
     Friend WithEvents Label52 As Label
     Friend WithEvents Label53 As Label
