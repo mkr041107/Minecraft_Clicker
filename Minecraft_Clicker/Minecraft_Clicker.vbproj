@@ -179,5 +179,44 @@
   <ItemGroup>
     <None Include="Resources\th-4270698680.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hatchet-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
