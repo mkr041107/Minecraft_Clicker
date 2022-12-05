@@ -218,5 +218,26 @@
   <ItemGroup>
     <None Include="Resources\icons8-mine-cart-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mine-cart-50 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-golden-fever-48 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-railroad-car-with-wood-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -3,4 +3,8 @@
         Me.Visible = False
         Form1.Visible = True
     End Sub
+
+    Private Sub Buildings_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

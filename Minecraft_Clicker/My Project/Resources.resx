@@ -175,11 +175,23 @@
   <data name="icons8_golden_fever_48__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-golden-fever-48 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_golden_fever_48__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-golden-fever-48 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_golden_fever_48__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-golden-fever-48 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_golden_fever_48__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-golden-fever-48 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_hatchet_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-hatchet-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_mine_cart_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-mine-cart-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_mine_cart_50__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-mine-cart-50 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_mine_cart_50__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-mine-cart-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -195,5 +207,14 @@
   </data>
   <data name="icons8_mine_cart_50__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-mine-cart-50 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_mine_cart_50__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-mine-cart-50 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_mine_cart_50__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-mine-cart-50 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_railroad_car_with_wood_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-railroad-car-with-wood-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
