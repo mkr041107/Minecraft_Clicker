@@ -1,18 +1,16 @@
 ﻿
-Imports System.Security.Policy
-Imports Microsoft.VisualBasic.Devices
 
 Public Class Form1
-    Dim RedCurrency As Integer
-    Dim TealCurrency As Integer
-    Dim BlueCurrency As Integer
-    Dim WoodCurrency As Integer
-    Dim CobbleCurrency As Integer
-    Dim IronCurrency As Integer
-    Dim CopperCurrency As Integer
-    Dim GoldCurrency As Integer
-    Dim DiamondCurrency As Integer
-    Dim EmeraldCurrency As Integer
+    Public RedCurrency As Integer
+    Public TealCurrency As Integer
+    Public BlueCurrency As Integer
+    Public WoodCurrency As Integer
+    Public CobbleCurrency As Integer
+    Public IronCurrency As Integer
+    Public CopperCurrency As Integer
+    Public GoldCurrency As Integer
+    Public DiamondCurrency As Integer
+    Public EmeraldCurrency As Integer
     Dim l As Boolean = False
     Dim r As Boolean = False
     Dim u As Boolean = False
@@ -136,6 +134,10 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub TealDepot_Click(sender As Object, e As EventArgs) Handles TealDepot.Click
 
     End Sub
 
