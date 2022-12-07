@@ -1,16 +1,16 @@
 ﻿
 
 Public Class Form1
-    Public RedCurrency As Integer
-    Public TealCurrency As Integer
-    Public BlueCurrency As Integer
-    Public WoodCurrency As Integer
-    Public CobbleCurrency As Integer
-    Public IronCurrency As Integer
-    Public CopperCurrency As Integer
-    Public GoldCurrency As Integer
-    Public DiamondCurrency As Integer
-    Public EmeraldCurrency As Integer
+    Public RedCurrency As Double
+    Public TealCurrency As Double
+    Public BlueCurrency As Double
+    Public WoodCurrency As Double
+    Public CobbleCurrency As Double
+    Public IronCurrency As Double
+    Public CopperCurrency As Double
+    Public GoldCurrency As Double
+    Public DiamondCurrency As Double
+    Public EmeraldCurrency As Double
     Dim l As Boolean = False
     Dim r As Boolean = False
     Dim u As Boolean = False

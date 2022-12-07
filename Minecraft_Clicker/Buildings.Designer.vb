@@ -22,6 +22,7 @@ Partial Class Buildings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.BuildingIron2 = New System.Windows.Forms.PictureBox()
         Me.BuildingIron1 = New System.Windows.Forms.PictureBox()
@@ -103,6 +104,7 @@ Partial Class Buildings
         Me.EmeraldBuilding2Price = New System.Windows.Forms.Label()
         Me.EmeraldBuilding2Quantity = New System.Windows.Forms.Label()
         Me.Label60 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.BuildingIron2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BuildingIron1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BuildingRed2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -874,6 +876,11 @@ Partial Class Buildings
         Me.Label60.TabIndex = 82
         Me.Label60.Text = "Emerald Mining Inc"
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
         'Buildings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1068,4 +1075,5 @@ Partial Class Buildings
     Friend WithEvents EmeraldBuilding2Price As Label
     Friend WithEvents EmeraldBuilding2Quantity As Label
     Friend WithEvents Label60 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
