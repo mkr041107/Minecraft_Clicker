@@ -17,6 +17,7 @@ Public Class Form1
     Dim d As Boolean = False
     Dim s As Integer = 5
     Dim px, py As Integer
+    Dim y As Boolean
 
 
 
@@ -59,6 +60,18 @@ Public Class Form1
         End If
         If Player.Bounds.IntersectsWith(TopStopper.Bounds) Then
             Player.Location = New Point(px, py)
+        End If
+        If y = True Then
+            BlueCurrency += 100
+            RedCurrency += 100
+            TealCurrency += 100
+            WoodCurrency += 100
+            CobbleCurrency += 100
+            CopperCurrency += 100
+            IronCurrency += 100
+            GoldCurrency += 100
+            DiamondCurrency += 100
+            EmeraldCurrency += 100
         End If
     End Sub
     Private Sub MoneyGenActive()
@@ -131,13 +144,20 @@ Public Class Form1
         If e.KeyCode = Keys.S Then
             d = True
         End If
+        If e.KeyCode = Keys.F1 Then
+            y = True
+        End If
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Buildings.Timer1.Start()
     End Sub
 
     Private Sub TealDepot_Click(sender As Object, e As EventArgs) Handles TealDepot.Click
+
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
 
     End Sub
 
@@ -153,6 +173,9 @@ Public Class Form1
         End If
         If e.KeyCode = Keys.S Then
             d = False
+        End If
+        If e.KeyCode = Keys.F1 Then
+            y = false
         End If
     End Sub
 

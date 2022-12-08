@@ -49,6 +49,7 @@ Partial Class Form1
         Me.CurrencyDiamond = New System.Windows.Forms.Label()
         Me.CurrencyEmerald = New System.Windows.Forms.Label()
         Me.TopStopper = New System.Windows.Forms.PictureBox()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.Player, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GoldDepot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.IronDepot, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -295,6 +296,9 @@ Partial Class Form1
         Me.TopStopper.TabIndex = 23
         Me.TopStopper.TabStop = False
         '
+        'Timer2
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -368,4 +372,5 @@ Partial Class Form1
     Friend WithEvents CurrencyDiamond As Label
     Friend WithEvents CurrencyEmerald As Label
     Friend WithEvents TopStopper As PictureBox
+    Friend WithEvents Timer2 As Timer
 End Class
