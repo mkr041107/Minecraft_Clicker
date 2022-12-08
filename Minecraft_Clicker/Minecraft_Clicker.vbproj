@@ -239,5 +239,38 @@
   <ItemGroup>
     <None Include="Resources\icons8-railroad-car-with-wood-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-buy-upgrade-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
