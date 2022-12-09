@@ -272,5 +272,8 @@
   <ItemGroup>
     <None Include="Resources\icons8-dollar-coin-80.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dollar-coin-80 %2810%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
