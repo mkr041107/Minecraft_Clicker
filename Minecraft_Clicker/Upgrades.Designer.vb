@@ -258,18 +258,18 @@ Partial Class Upgrades
         Me.BlueFortUpgradePrice.AutoSize = True
         Me.BlueFortUpgradePrice.Location = New System.Drawing.Point(157, 41)
         Me.BlueFortUpgradePrice.Name = "BlueFortUpgradePrice"
-        Me.BlueFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.BlueFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.BlueFortUpgradePrice.TabIndex = 23
-        Me.BlueFortUpgradePrice.Text = "Price: "
+        Me.BlueFortUpgradePrice.Text = "Price: 100"
         '
         'RedFortUpgradePrice
         '
         Me.RedFortUpgradePrice.AutoSize = True
         Me.RedFortUpgradePrice.Location = New System.Drawing.Point(157, 149)
         Me.RedFortUpgradePrice.Name = "RedFortUpgradePrice"
-        Me.RedFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.RedFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.RedFortUpgradePrice.TabIndex = 26
-        Me.RedFortUpgradePrice.Text = "Price: "
+        Me.RedFortUpgradePrice.Text = "Price: 100"
         '
         'Label6
         '
@@ -285,9 +285,9 @@ Partial Class Upgrades
         Me.TealFortUpgradePrice.AutoSize = True
         Me.TealFortUpgradePrice.Location = New System.Drawing.Point(157, 252)
         Me.TealFortUpgradePrice.Name = "TealFortUpgradePrice"
-        Me.TealFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.TealFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.TealFortUpgradePrice.TabIndex = 29
-        Me.TealFortUpgradePrice.Text = "Price: "
+        Me.TealFortUpgradePrice.Text = "Price: 100"
         '
         'Label9
         '
@@ -303,9 +303,9 @@ Partial Class Upgrades
         Me.WoodFortUpgradePrice.AutoSize = True
         Me.WoodFortUpgradePrice.Location = New System.Drawing.Point(157, 357)
         Me.WoodFortUpgradePrice.Name = "WoodFortUpgradePrice"
-        Me.WoodFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.WoodFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.WoodFortUpgradePrice.TabIndex = 32
-        Me.WoodFortUpgradePrice.Text = "Price: "
+        Me.WoodFortUpgradePrice.Text = "Price: 100"
         '
         'Label12
         '
@@ -321,9 +321,9 @@ Partial Class Upgrades
         Me.CobbleFortUpgradePrice.AutoSize = True
         Me.CobbleFortUpgradePrice.Location = New System.Drawing.Point(157, 467)
         Me.CobbleFortUpgradePrice.Name = "CobbleFortUpgradePrice"
-        Me.CobbleFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.CobbleFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.CobbleFortUpgradePrice.TabIndex = 35
-        Me.CobbleFortUpgradePrice.Text = "Price: "
+        Me.CobbleFortUpgradePrice.Text = "Price: 100"
         '
         'Label15
         '
@@ -339,9 +339,9 @@ Partial Class Upgrades
         Me.CopperFortUpgradePrice.AutoSize = True
         Me.CopperFortUpgradePrice.Location = New System.Drawing.Point(461, 41)
         Me.CopperFortUpgradePrice.Name = "CopperFortUpgradePrice"
-        Me.CopperFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.CopperFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.CopperFortUpgradePrice.TabIndex = 38
-        Me.CopperFortUpgradePrice.Text = "Price: "
+        Me.CopperFortUpgradePrice.Text = "Price: 100"
         '
         'Label18
         '
@@ -357,9 +357,9 @@ Partial Class Upgrades
         Me.IronFortUpgradePrice.AutoSize = True
         Me.IronFortUpgradePrice.Location = New System.Drawing.Point(461, 149)
         Me.IronFortUpgradePrice.Name = "IronFortUpgradePrice"
-        Me.IronFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.IronFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.IronFortUpgradePrice.TabIndex = 41
-        Me.IronFortUpgradePrice.Text = "Price: "
+        Me.IronFortUpgradePrice.Text = "Price: 100"
         '
         'Label21
         '
@@ -375,9 +375,9 @@ Partial Class Upgrades
         Me.GoldFortUpgradePrice.AutoSize = True
         Me.GoldFortUpgradePrice.Location = New System.Drawing.Point(461, 252)
         Me.GoldFortUpgradePrice.Name = "GoldFortUpgradePrice"
-        Me.GoldFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.GoldFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.GoldFortUpgradePrice.TabIndex = 44
-        Me.GoldFortUpgradePrice.Text = "Price: "
+        Me.GoldFortUpgradePrice.Text = "Price: 100"
         '
         'Label24
         '
@@ -393,9 +393,9 @@ Partial Class Upgrades
         Me.DiamondFortUpgradePrice.AutoSize = True
         Me.DiamondFortUpgradePrice.Location = New System.Drawing.Point(461, 357)
         Me.DiamondFortUpgradePrice.Name = "DiamondFortUpgradePrice"
-        Me.DiamondFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.DiamondFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.DiamondFortUpgradePrice.TabIndex = 47
-        Me.DiamondFortUpgradePrice.Text = "Price: "
+        Me.DiamondFortUpgradePrice.Text = "Price: 100"
         '
         'Label27
         '
@@ -411,9 +411,9 @@ Partial Class Upgrades
         Me.EmeraldFortUpgradePrice.AutoSize = True
         Me.EmeraldFortUpgradePrice.Location = New System.Drawing.Point(461, 467)
         Me.EmeraldFortUpgradePrice.Name = "EmeraldFortUpgradePrice"
-        Me.EmeraldFortUpgradePrice.Size = New System.Drawing.Size(37, 13)
+        Me.EmeraldFortUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.EmeraldFortUpgradePrice.TabIndex = 50
-        Me.EmeraldFortUpgradePrice.Text = "Price: "
+        Me.EmeraldFortUpgradePrice.Text = "Price: 100"
         '
         'Label30
         '
@@ -429,9 +429,9 @@ Partial Class Upgrades
         Me.SpeedUpgradePriceOne.AutoSize = True
         Me.SpeedUpgradePriceOne.Location = New System.Drawing.Point(719, 41)
         Me.SpeedUpgradePriceOne.Name = "SpeedUpgradePriceOne"
-        Me.SpeedUpgradePriceOne.Size = New System.Drawing.Size(37, 13)
+        Me.SpeedUpgradePriceOne.Size = New System.Drawing.Size(105, 13)
         Me.SpeedUpgradePriceOne.TabIndex = 53
-        Me.SpeedUpgradePriceOne.Text = "Price: "
+        Me.SpeedUpgradePriceOne.Text = "Price: 100 Diamonds"
         '
         'Label33
         '
@@ -447,9 +447,9 @@ Partial Class Upgrades
         Me.SpeedUpgradePriceTwo.AutoSize = True
         Me.SpeedUpgradePriceTwo.Location = New System.Drawing.Point(719, 149)
         Me.SpeedUpgradePriceTwo.Name = "SpeedUpgradePriceTwo"
-        Me.SpeedUpgradePriceTwo.Size = New System.Drawing.Size(37, 13)
+        Me.SpeedUpgradePriceTwo.Size = New System.Drawing.Size(101, 13)
         Me.SpeedUpgradePriceTwo.TabIndex = 56
-        Me.SpeedUpgradePriceTwo.Text = "Price: "
+        Me.SpeedUpgradePriceTwo.Text = "Price: 200 Emeralds"
         '
         'Label36
         '
@@ -465,9 +465,9 @@ Partial Class Upgrades
         Me.SpeedUpgradePriceThree.AutoSize = True
         Me.SpeedUpgradePriceThree.Location = New System.Drawing.Point(719, 252)
         Me.SpeedUpgradePriceThree.Name = "SpeedUpgradePriceThree"
-        Me.SpeedUpgradePriceThree.Size = New System.Drawing.Size(37, 13)
+        Me.SpeedUpgradePriceThree.Size = New System.Drawing.Size(83, 13)
         Me.SpeedUpgradePriceThree.TabIndex = 59
-        Me.SpeedUpgradePriceThree.Text = "Price: "
+        Me.SpeedUpgradePriceThree.Text = "Price:  300 Gold"
         '
         'Label39
         '
@@ -483,9 +483,9 @@ Partial Class Upgrades
         Me.SpeedUpgradePriceFour.AutoSize = True
         Me.SpeedUpgradePriceFour.Location = New System.Drawing.Point(719, 357)
         Me.SpeedUpgradePriceFour.Name = "SpeedUpgradePriceFour"
-        Me.SpeedUpgradePriceFour.Size = New System.Drawing.Size(37, 13)
+        Me.SpeedUpgradePriceFour.Size = New System.Drawing.Size(79, 13)
         Me.SpeedUpgradePriceFour.TabIndex = 62
-        Me.SpeedUpgradePriceFour.Text = "Price: "
+        Me.SpeedUpgradePriceFour.Text = "Price: 400 Teal"
         '
         'Label42
         '
@@ -501,9 +501,9 @@ Partial Class Upgrades
         Me.SpeedUpgradePriceFive.AutoSize = True
         Me.SpeedUpgradePriceFive.Location = New System.Drawing.Point(719, 467)
         Me.SpeedUpgradePriceFive.Name = "SpeedUpgradePriceFive"
-        Me.SpeedUpgradePriceFive.Size = New System.Drawing.Size(37, 13)
+        Me.SpeedUpgradePriceFive.Size = New System.Drawing.Size(78, 13)
         Me.SpeedUpgradePriceFive.TabIndex = 65
-        Me.SpeedUpgradePriceFive.Text = "Price: "
+        Me.SpeedUpgradePriceFive.Text = "Price: 500 Red"
         '
         'Label45
         '

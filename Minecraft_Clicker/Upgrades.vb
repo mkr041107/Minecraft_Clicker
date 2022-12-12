@@ -1,6 +1,7 @@
 ﻿Imports System.Windows
 
 Public Class Upgrades
+    'vars for fortune = 2x of the color upppgrade you buy
     Public FortBlue As Integer
     Public FortRed As Integer
     Public FortTeal As Integer
@@ -11,25 +12,36 @@ Public Class Upgrades
     Public FortGold As Integer
     Public FortDiamond As Integer
     Public FortEmerald As Integer
-    Public FortBluePrice As Integer = 1
-    Public FortRedPrice As Integer
-    Public FortTealPrice As Integer
-    Public FortWoodPrice As Integer
-    Public FortCobblePrice As Integer
-    Public FortCopperPrice As Integer
-    Public FortIronPrice As Integer
-    Public FortGoldPrice As Integer
-    Public FortDiamondPrice As Integer
-    Public FortEmeraldPrice As Integer
+    'price for fortune upgrades
+    Public FortBluePrice As Integer = 100
+    Public FortRedPrice As Integer = 100
+    Public FortTealPrice As Integer = 100
+    Public FortWoodPrice As Integer = 100
+    Public FortCobblePrice As Integer = 100
+    Public FortCopperPrice As Integer = 100
+    Public FortIronPrice As Integer = 100
+    Public FortGoldPrice As Integer = 100
+    Public FortDiamondPrice As Integer = 100
+    Public FortEmeraldPrice As Integer = 100
+    'speed upgrade makes speed increase by 1
+    Public SpeeedUpgradeOne As Integer
+    Public SpeeedUpgradeTwo As Integer
+    Public SpeeedUpgradeThree As Integer
+    Public SpeeedUgradeFour As Integer
+    Public SpeeedUpgradeFive As Integer
+    'prices for speed upgrades
+    Public SpeeedUpgradeOnePrice As Integer = 100
+    Public SpeeedUpgradeTwoPrice As Integer = 200
+    Public SpeeedUpgradeThreePrice As Integer = 300
+    Public SpeeedUgradeFourPrice As Integer = 400
+    Public SpeeedUpgradeFivePrice As Integer = 500
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'to make the forms switch between eachother
         Me.Visible = False
         Form1.Visible = True
     End Sub
-
-    Private Sub Upgrades_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        BlueFortUpgradePrice.Text = "Price: " & FortBluePrice
-    End Sub
     Private Sub UpgradeFortBlue_Click(sender As Object, e As EventArgs) Handles UpgradeFortBlue.Click
+        'Fortune For Blue = 2x When run into blue
         If Form1.BlueCurrency >= FortBluePrice Then
             FortBlue += 1
             Form1.BlueCurrency -= FortBluePrice
@@ -107,6 +119,46 @@ Public Class Upgrades
             FortEmerald += 1
             Form1.EmeraldCurrency -= FortEmeraldPrice
             UpgradeFortEmerald.Enabled = False
+        End If
+    End Sub
+
+    Private Sub SpeedUpgradeOne_Click(sender As Object, e As EventArgs) Handles SpeedUpgradeOne.Click
+        If Form1.DiamondCurrency >= SpeeedUpgradeOnePrice Then
+            Form1.s += 1
+            Form1.DiamondCurrency -= SpeeedUpgradeOnePrice
+            SpeedUpgradeOne.Enabled = False
+        End If
+    End Sub
+
+    Private Sub SpeedUpgradeTwo_Click(sender As Object, e As EventArgs) Handles SpeedUpgradeTwo.Click
+        If Form1.EmeraldCurrency >= SpeeedUpgradeTwoPrice Then
+            Form1.s += 1
+            Form1.EmeraldCurrency -= SpeeedUpgradeTwoPrice
+            SpeedUpgradeTwo.Enabled = False
+        End If
+    End Sub
+
+    Private Sub SpeedUpgradeFour_Click(sender As Object, e As EventArgs) Handles SpeedUpgradeFour.Click
+        If Form1.GoldCurrency >= SpeeedUpgradeThreePrice Then
+            Form1.s += 1
+            Form1.GoldCurrency -= SpeeedUpgradeThreePrice
+            SpeedUpgradeThree.Enabled = False
+        End If
+    End Sub
+
+    Private Sub SpeedUpgradeFive_Click(sender As Object, e As EventArgs) Handles SpeedUpgradeFive.Click
+        If Form1.TealCurrency >= SpeeedUgradeFourPrice Then
+            Form1.s += 1
+            Form1.TealCurrency -= SpeeedUgradeFourPrice
+            SpeedUpgradeFour.Enabled = False
+        End If
+    End Sub
+
+    Private Sub SpeedUpgradeThree_Click(sender As Object, e As EventArgs) Handles SpeedUpgradeThree.Click
+        If Form1.RedCurrency >= SpeeedUpgradeFivePrice Then
+            Form1.s += 1
+            Form1.RedCurrency -= SpeeedUpgradeFivePrice
+            SpeedUpgradeFive.Enabled = False
         End If
     End Sub
 End Class

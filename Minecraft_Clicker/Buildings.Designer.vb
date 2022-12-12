@@ -341,9 +341,9 @@ Partial Class Buildings
         Me.BuildingBlue1Price.AutoSize = True
         Me.BuildingBlue1Price.Location = New System.Drawing.Point(173, 54)
         Me.BuildingBlue1Price.Name = "BuildingBlue1Price"
-        Me.BuildingBlue1Price.Size = New System.Drawing.Size(37, 13)
+        Me.BuildingBlue1Price.Size = New System.Drawing.Size(46, 13)
         Me.BuildingBlue1Price.TabIndex = 25
-        Me.BuildingBlue1Price.Text = "Price: "
+        Me.BuildingBlue1Price.Text = "Price:  2"
         '
         'BuildingBlue1Quantity
         '
@@ -368,9 +368,9 @@ Partial Class Buildings
         Me.TealBuilding1Price.AutoSize = True
         Me.TealBuilding1Price.Location = New System.Drawing.Point(173, 127)
         Me.TealBuilding1Price.Name = "TealBuilding1Price"
-        Me.TealBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.TealBuilding1Price.Size = New System.Drawing.Size(46, 13)
         Me.TealBuilding1Price.TabIndex = 30
-        Me.TealBuilding1Price.Text = "Price: "
+        Me.TealBuilding1Price.Text = "Price:  4"
         '
         'TealBuilding1Quantity
         '
@@ -395,9 +395,9 @@ Partial Class Buildings
         Me.CobblestoneBuilding1Price.AutoSize = True
         Me.CobblestoneBuilding1Price.Location = New System.Drawing.Point(173, 200)
         Me.CobblestoneBuilding1Price.Name = "CobblestoneBuilding1Price"
-        Me.CobblestoneBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.CobblestoneBuilding1Price.Size = New System.Drawing.Size(43, 13)
         Me.CobblestoneBuilding1Price.TabIndex = 33
-        Me.CobblestoneBuilding1Price.Text = "Price: "
+        Me.CobblestoneBuilding1Price.Text = "Price: 6"
         '
         'CobblestoneBuilding1Quantity
         '
@@ -422,9 +422,9 @@ Partial Class Buildings
         Me.IronBuilding1Price.AutoSize = True
         Me.IronBuilding1Price.Location = New System.Drawing.Point(173, 270)
         Me.IronBuilding1Price.Name = "IronBuilding1Price"
-        Me.IronBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.IronBuilding1Price.Size = New System.Drawing.Size(43, 13)
         Me.IronBuilding1Price.TabIndex = 36
-        Me.IronBuilding1Price.Text = "Price: "
+        Me.IronBuilding1Price.Text = "Price: 8"
         '
         'IronBuilding1Quantity
         '
@@ -449,9 +449,9 @@ Partial Class Buildings
         Me.DiamondBuilding1Price.AutoSize = True
         Me.DiamondBuilding1Price.Location = New System.Drawing.Point(173, 346)
         Me.DiamondBuilding1Price.Name = "DiamondBuilding1Price"
-        Me.DiamondBuilding1Price.Size = New System.Drawing.Size(75, 13)
+        Me.DiamondBuilding1Price.Size = New System.Drawing.Size(49, 13)
         Me.DiamondBuilding1Price.TabIndex = 39
-        Me.DiamondBuilding1Price.Text = "LabelPrice: 13"
+        Me.DiamondBuilding1Price.Text = "Price: 10"
         '
         'DiamondBuilding1Quantity
         '
@@ -476,9 +476,9 @@ Partial Class Buildings
         Me.BlueBuilding2Price.AutoSize = True
         Me.BlueBuilding2Price.Location = New System.Drawing.Point(465, 54)
         Me.BlueBuilding2Price.Name = "BlueBuilding2Price"
-        Me.BlueBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.BlueBuilding2Price.Size = New System.Drawing.Size(49, 13)
         Me.BlueBuilding2Price.TabIndex = 42
-        Me.BlueBuilding2Price.Text = "Price: "
+        Me.BlueBuilding2Price.Text = "Price: 12"
         '
         'BlueBuilding2Quantity
         '
@@ -503,9 +503,9 @@ Partial Class Buildings
         Me.TealBuilding2Price.AutoSize = True
         Me.TealBuilding2Price.Location = New System.Drawing.Point(465, 127)
         Me.TealBuilding2Price.Name = "TealBuilding2Price"
-        Me.TealBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.TealBuilding2Price.Size = New System.Drawing.Size(49, 13)
         Me.TealBuilding2Price.TabIndex = 45
-        Me.TealBuilding2Price.Text = "Price: "
+        Me.TealBuilding2Price.Text = "Price: 14"
         '
         'TealBuilding2Quantity
         '
@@ -530,9 +530,9 @@ Partial Class Buildings
         Me.CobblestoneBuilding2Price.AutoSize = True
         Me.CobblestoneBuilding2Price.Location = New System.Drawing.Point(465, 200)
         Me.CobblestoneBuilding2Price.Name = "CobblestoneBuilding2Price"
-        Me.CobblestoneBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.CobblestoneBuilding2Price.Size = New System.Drawing.Size(49, 13)
         Me.CobblestoneBuilding2Price.TabIndex = 48
-        Me.CobblestoneBuilding2Price.Text = "Price: "
+        Me.CobblestoneBuilding2Price.Text = "Price: 16"
         '
         'CobblestoneBuilding2Quantity
         '
@@ -557,9 +557,9 @@ Partial Class Buildings
         Me.IronBuilding2Price.AutoSize = True
         Me.IronBuilding2Price.Location = New System.Drawing.Point(465, 270)
         Me.IronBuilding2Price.Name = "IronBuilding2Price"
-        Me.IronBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.IronBuilding2Price.Size = New System.Drawing.Size(49, 13)
         Me.IronBuilding2Price.TabIndex = 51
-        Me.IronBuilding2Price.Text = "Price: "
+        Me.IronBuilding2Price.Text = "Price: 18"
         '
         'IronBuilding2Quantity
         '
@@ -584,9 +584,9 @@ Partial Class Buildings
         Me.DiamondBuilding2Price.AutoSize = True
         Me.DiamondBuilding2Price.Location = New System.Drawing.Point(465, 346)
         Me.DiamondBuilding2Price.Name = "DiamondBuilding2Price"
-        Me.DiamondBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.DiamondBuilding2Price.Size = New System.Drawing.Size(49, 13)
         Me.DiamondBuilding2Price.TabIndex = 54
-        Me.DiamondBuilding2Price.Text = "Price: "
+        Me.DiamondBuilding2Price.Text = "Price: 20"
         '
         'DiamondBuilding2Quantity
         '
@@ -611,9 +611,9 @@ Partial Class Buildings
         Me.RedBuilding1Price.AutoSize = True
         Me.RedBuilding1Price.Location = New System.Drawing.Point(754, 54)
         Me.RedBuilding1Price.Name = "RedBuilding1Price"
-        Me.RedBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.RedBuilding1Price.Size = New System.Drawing.Size(49, 13)
         Me.RedBuilding1Price.TabIndex = 57
-        Me.RedBuilding1Price.Text = "Price: "
+        Me.RedBuilding1Price.Text = "Price: 13"
         '
         'RedBuilding1Quantity
         '
@@ -638,9 +638,9 @@ Partial Class Buildings
         Me.WoodBuilding1Price.AutoSize = True
         Me.WoodBuilding1Price.Location = New System.Drawing.Point(754, 127)
         Me.WoodBuilding1Price.Name = "WoodBuilding1Price"
-        Me.WoodBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.WoodBuilding1Price.Size = New System.Drawing.Size(49, 13)
         Me.WoodBuilding1Price.TabIndex = 60
-        Me.WoodBuilding1Price.Text = "Price: "
+        Me.WoodBuilding1Price.Text = "Price: 15"
         '
         'WoodBuilding1Quantity
         '
@@ -665,9 +665,9 @@ Partial Class Buildings
         Me.CopperBuilding1Price.AutoSize = True
         Me.CopperBuilding1Price.Location = New System.Drawing.Point(754, 200)
         Me.CopperBuilding1Price.Name = "CopperBuilding1Price"
-        Me.CopperBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.CopperBuilding1Price.Size = New System.Drawing.Size(49, 13)
         Me.CopperBuilding1Price.TabIndex = 63
-        Me.CopperBuilding1Price.Text = "Price: "
+        Me.CopperBuilding1Price.Text = "Price: 17"
         '
         'CopperBuilding1Quantity
         '
@@ -692,9 +692,9 @@ Partial Class Buildings
         Me.GoldBuilding1Price.AutoSize = True
         Me.GoldBuilding1Price.Location = New System.Drawing.Point(754, 270)
         Me.GoldBuilding1Price.Name = "GoldBuilding1Price"
-        Me.GoldBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.GoldBuilding1Price.Size = New System.Drawing.Size(49, 13)
         Me.GoldBuilding1Price.TabIndex = 66
-        Me.GoldBuilding1Price.Text = "Price: "
+        Me.GoldBuilding1Price.Text = "Price: 19"
         '
         'GoldBuilding1Quantity
         '
@@ -719,9 +719,9 @@ Partial Class Buildings
         Me.EmeraldBuilding1Price.AutoSize = True
         Me.EmeraldBuilding1Price.Location = New System.Drawing.Point(754, 346)
         Me.EmeraldBuilding1Price.Name = "EmeraldBuilding1Price"
-        Me.EmeraldBuilding1Price.Size = New System.Drawing.Size(37, 13)
+        Me.EmeraldBuilding1Price.Size = New System.Drawing.Size(49, 13)
         Me.EmeraldBuilding1Price.TabIndex = 69
-        Me.EmeraldBuilding1Price.Text = "Price: "
+        Me.EmeraldBuilding1Price.Text = "Price: 21"
         '
         'EmeraldBuilding1Quantity
         '
@@ -746,9 +746,9 @@ Partial Class Buildings
         Me.RedBuilding2Price.AutoSize = True
         Me.RedBuilding2Price.Location = New System.Drawing.Point(1024, 54)
         Me.RedBuilding2Price.Name = "RedBuilding2Price"
-        Me.RedBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.RedBuilding2Price.Size = New System.Drawing.Size(43, 13)
         Me.RedBuilding2Price.TabIndex = 72
-        Me.RedBuilding2Price.Text = "Price: "
+        Me.RedBuilding2Price.Text = "Price: 3"
         '
         'RedBuilding2Quantity
         '
@@ -773,9 +773,9 @@ Partial Class Buildings
         Me.WoodBuilding2Price.AutoSize = True
         Me.WoodBuilding2Price.Location = New System.Drawing.Point(1024, 127)
         Me.WoodBuilding2Price.Name = "WoodBuilding2Price"
-        Me.WoodBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.WoodBuilding2Price.Size = New System.Drawing.Size(43, 13)
         Me.WoodBuilding2Price.TabIndex = 75
-        Me.WoodBuilding2Price.Text = "Price: "
+        Me.WoodBuilding2Price.Text = "Price: 5"
         '
         'WoodBuilding2Quantity
         '
@@ -800,9 +800,9 @@ Partial Class Buildings
         Me.CopperBuilding2Price.AutoSize = True
         Me.CopperBuilding2Price.Location = New System.Drawing.Point(1024, 200)
         Me.CopperBuilding2Price.Name = "CopperBuilding2Price"
-        Me.CopperBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.CopperBuilding2Price.Size = New System.Drawing.Size(43, 13)
         Me.CopperBuilding2Price.TabIndex = 78
-        Me.CopperBuilding2Price.Text = "Price: "
+        Me.CopperBuilding2Price.Text = "Price: 7"
         '
         'CopperBuilding2Quantity
         '
@@ -827,9 +827,9 @@ Partial Class Buildings
         Me.GoldBuilding2Price.AutoSize = True
         Me.GoldBuilding2Price.Location = New System.Drawing.Point(1024, 270)
         Me.GoldBuilding2Price.Name = "GoldBuilding2Price"
-        Me.GoldBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.GoldBuilding2Price.Size = New System.Drawing.Size(43, 13)
         Me.GoldBuilding2Price.TabIndex = 81
-        Me.GoldBuilding2Price.Text = "Price: "
+        Me.GoldBuilding2Price.Text = "Price: 9"
         '
         'GoldBuilding2Quantity
         '
@@ -854,9 +854,9 @@ Partial Class Buildings
         Me.EmeraldBuilding2Price.AutoSize = True
         Me.EmeraldBuilding2Price.Location = New System.Drawing.Point(1024, 346)
         Me.EmeraldBuilding2Price.Name = "EmeraldBuilding2Price"
-        Me.EmeraldBuilding2Price.Size = New System.Drawing.Size(37, 13)
+        Me.EmeraldBuilding2Price.Size = New System.Drawing.Size(49, 13)
         Me.EmeraldBuilding2Price.TabIndex = 84
-        Me.EmeraldBuilding2Price.Text = "Price: "
+        Me.EmeraldBuilding2Price.Text = "Price: 11"
         '
         'EmeraldBuilding2Quantity
         '
